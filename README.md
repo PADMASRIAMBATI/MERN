@@ -1,2 +1,2 @@
 # MERN
-mern stack
+Mern stack
