@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Hover Effect</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .card {
+        padding: 20px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        background-color: #fff;
+        width: 300px;
+        margin: 50px auto;
+        transition: box-shadow 0.3s ease; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+      }
+      .card:hover {
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Card Title</h2>
+      <p>
+        This is a description inside the card. Hover over the card to see the
+        shadow effect.
+      </p>
+    </div>
+  </body>
+</html>
